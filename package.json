@@ -1,0 +1,31 @@
+{
+  "name": "keycard-demo",
+  "version": "1.0.0",
+  "description": "an agent that uses Keycard AI  for AuthN and AuthZ",
+  "type": "module",
+  "scripts": {
+    "start": "tsx --env-file=.env src/server.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpvajda/keycard-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpvajda/keycard-demo/issues"
+  },
+  "homepage": "https://github.com/jpvajda/keycard-demo#readme",
+  "dependencies": {
+    "@keycardai/oauth": "^0.25.0",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
